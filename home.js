@@ -22,7 +22,7 @@ function deleteCookie(name) {
             document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; secure; samesite=strict;';
 }
 console.log(getCookie('title_real'))
-if(JSON.parse(localStorage.getItem('username') != document.title)){
+/*if(JSON.parse(localStorage.getItem('username') != document.title)){
     document.addEventListener('DOMContentLoaded', function() {
         const popa = document.getElementById('new-body');
         const buttons = popa.querySelectorAll('button');
@@ -38,7 +38,7 @@ if(JSON.parse(localStorage.getItem('username') != document.title)){
 
 
 }
-
+*/
 function video2(num) {
     if (num=== '1'){
         const video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>';
