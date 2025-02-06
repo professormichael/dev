@@ -31,7 +31,7 @@ if(JSON.parse(localStorage.getItem('username') != document.title)){
         button.addEventListener('click', function() {
             console.log("heleleo")
             alert("Log In To Watch Video")
-            window.location.href = 'sign in.html'
+            window.location.href = 'animae_signin.html'
         });
     });
 });
