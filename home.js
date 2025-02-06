@@ -1,4 +1,5 @@
-        
+alert('OPENED SUCCESSFULY')
+console.log('OPENED SUCCESSFULY')        
 var leftStyle = getComputedStyle(document.getElementById('left_h'))
 function setCookie(name, value, expirationDays) {
     const expirationDate = new Date();
