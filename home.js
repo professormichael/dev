@@ -310,7 +310,7 @@ myButton5.addEventListener("click", function () {
 // console.log(divs.innerHTML)
 const new_body = document.getElementById('new_body');
 let video_list = [['pics1.webp','JavaScript Tutorial for Beginners: Learn JavaScript in 1 Hour','Watch'],["hq720.webp",'JavaScript Full Course (2023) - Beginner to Pro - Part 1', 'Watch'],['pics3.webp','Learn JavaScript - Full Course for Beginners','Watch'],['hq720%20(1).webp','Learn JavaScript With This ONE Project!','Watch']]
-addVideoToMain()
+/*addVideoToMain()
 function addVideoToMain(){
     const xhr = new XMLHttpRequest();
 
@@ -363,7 +363,7 @@ function addVideoToMain(){
     // Send the XHR request
     xhr.send();
 }
-
+*/
 for(var i = 0; i<video_list.length; i++){
     const div = document.createElement('div')
     div.classList.add(`class${i+1}`)
