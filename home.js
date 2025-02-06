@@ -199,8 +199,6 @@ function search(){
 });
 */
 if(JSON.parse(localStorage.getItem('logged')) === 'true'){
-    document.getElementById('title').innerText = JSON.parse(localStorage.getItem('username'));
-    document.title = JSON.parse(localStorage.getItem('username'))    
     document.getElementById('button2').style.display = 'none';
     document.getElementById('button1').style.display = 'none';
     const login = document.getElementById("button3");
